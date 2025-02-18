@@ -1,0 +1,75 @@
+﻿Spring Boot
+
+
+Summary:
+Spring is widely used for creating scalable applications. For web applications Spring provides Spring MVC which is a widely used module of spring which is used to create scalable web applications. But the main disadvantage of spring projects is that configuration is really time-consuming and can be a bit overwhelming for the new developers. Making the application production-ready takes some time if you are new to the spring. Solution to this is
+Spring Boot
+
+
+Maven
+
+
+it helps programmers manage their projects and and the things they need to build their programs  
+
+
+Maven concepts:
+mvnw [options] [<goal(s)>] [<phase(s)>]
+mvnw
+        clean -removed temporary directories and files
+                pre– clean – Hook for before cleaning
+                clean – Does the actual cleaning
+                post- clean – Hook for after cleaning
+        default
+                compile – Compiles your code into bytecode
+                test – Runs unit tests
+                package –Creates a jar or war file
+                verify – Runs checks & integration tests
+→ there’re executed by ordering
+        site
+
+
+Maven Project Structure
+
+
+Maven WorkFlow
+
+
+Maven Spring Boot Plugin
+./mvnw spring-boot:run → Ctrl C to stop 
+
+
+Spring framework vs Spring Boot
+
+
+Spring boot is a popular framework for building java application
+
+
+Spring framework if a chunk of code written on top of a languages core library to solve common problems
+Spring App Layers
+_Presentation 
+_Service 
+_Persistence
+
+
+Modularity 
+
+
+Inversion of Control 
+
+
+Beans
+
+
+@Component and friends
+
+
+Component Scanning
+
+
+@SpringBootApplication Annotation
+
+
+AutoConfiguration
+
+
+Configuration files
